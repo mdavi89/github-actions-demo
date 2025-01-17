@@ -20,7 +20,7 @@ export default function Calculator() {
           type="text"
           id="value"
           name="value"
-          onChange={(event) => { setValue(Number(event.target.value)); }}
+          onChange={(event) => { setValue(Number(event.target.value)) }}
           value={value}
         />
       </p>
